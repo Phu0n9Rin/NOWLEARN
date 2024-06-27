@@ -127,7 +127,6 @@ At this point I will try changing the folder path to see if anything happens
 
 woooo, it's still the same, maybe it's been removed `../` but I'll try another request and see `....//` 
 
-![Screenshot 2024-05-24 201332](https://hackmd.io/_uploads/r1PLWbPN0.png)
 
 At this time the response is “No such file”. This is actually a path traversal vulnerability
 I will now use it to go to the `etc/passwd` folder as shown in the challenge description
